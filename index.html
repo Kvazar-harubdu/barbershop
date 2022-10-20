@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wawe | макет</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="logo">
+
+  <header class="header" style="background-image: url('images/barbershop.jpg')">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-inner">
+          <a class="header__logo logo" href="#logo">
+            <img class="logo__img" src="images/logo.svg" alt="Логотип">
+          </a>
+          <nav class="menu">
+            <button class="menu__btn" type="button">
+              <span></span>
+            </button>
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="#about">О нас</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#service">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#price">Стоимость</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#blog">Блог</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#team">Команда</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#contact">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header__box">
+        <div class="header__content">
+          <h1 class="header__title">
+            Razor barbershop
+          </h1>
+          <span class="header__subtitle">
+            Живи стильно
+          </span>
+          <a class="header__link" href="#about"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="about__title title animate__animated animate__fadeInLeftBig animate__slower wow">Что такое барбершоп
+          и чем
+          это лучше
+          парикмахерской</h2>
+        <div class="about__text text">
+          <p>
+            Мужская парикмахерская для тех, кто ценит отличный сервис, серьезное отношение и заботится о своем внешнем
+            виде. Классические стрижки, стрижки усов и бороды, бритье опасной бритвой и средства по уходу за волосами -
+            Вы найдете у нас не только это, но и понимание, и дружескую атмосферу внутри заведения.
+          </p>
+          <p>
+            Наш Барбершоп задумывался как место, где мужчина может не только постричься и побриться, но и отдохнуть от
+            суеты и пообщаться на чисто мужские темы за бокалом виски.
+          </p>
+          <p>
+            Наверно вам интересно, почему у нас такое название. Расскажем подробнее. BRAZOR происходит от чисто
+            английских слов: RAZOR и BLADE. Эти два слова, означающие ЛЕЗВИЕ и БРИТВУ, напрямую отражают и подчеркивают
+            тематику нашего заведения. Но, это еще не все! название, очень созвучно со словом "брат" - BROTHER. Данная
+            игра слов в полной мере отражает и раскрывает тематику нашего заведения - чисто мужское общение по
+            интересам.
+          </p>
+          <p>
+            К нам обращаются, в первую очередь, за индивидуальной стрижкой. Поэтому для нас очень важно найти "нашего"
+            мастера, человека, который будет работать на одной волне с нами в атмосфере нашего заведения и найдёт свой
+            уникальный подход к посетителю. На время стрижки мастер должен быть другом посетителя, которому он полностью
+            доверяет свой образ. Наши посетители очень разные люди, которые имеют разный социальный статус, и именно на
+            мастера ложится вся ответственность угадать его желания, правильно подсказать и посоветовать услугу и
+            ,конечно, сделать так, чтобы он стал нашим постоянным посетителем.
+          </p>
+          <p>
+            Модные чуваки или хипстеры, которые кропотливо создают свой «лук». В барбершопе можно не только заиметь свою
+            фирменную бороду и причёску, но и прикупить аксессуары, очки а иногда и одежду. Как правило, все
+            мега-стильное.
+          </p>
+          <p>
+            Обыкновенные мужики – кто-то ради любопытства, кто-то – потому что тут не только стригут, но и бреют;
+            офисные работники, продавцы и водители. Просто постричь и побрить, никаких укладок.
+          </p>
+          <p>
+            Другие ребята, которым захотелось поменять внешний вид, но они не доверяют местной парикмахерской и местным
+            «мастерам-универсалам».
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="container">
+        <h2 class="service__title title animate__animated animate__fadeInLeftBig animate__slower wow">Услуги наших
+          барберов</h2>
+        <div class="service__inner">
+          <div class="service__items">
+            <h3 class="service__offer service__offer--men tab-active" data-tab="tab-1">
+              Мужская стрижка
+            </h3>
+            <div class="service__text text" data-tab-content id="tab-1">
+              <p>
+                Во время стрижки – наши мастера выдерживают индивидуальный подход к каждому клиенту,
+                в зависимости от его предпочтений. Мы можем предложить Вам вариант стрижки, полностью соответствующий
+                тенденциям мужской моды, либо же выполнить качественную стрижку исключительно исходя из озвученных
+                клиентом пожеланий. Стрижка включает в себя мытье головы, непосредственно стрижку и укладку
+                высококачественными косметическими средствами. Вся процедура длится от 40 минут до часа, в зависимости
+                от сложности и особенностей волос.
+              </p>
+            </div>
+          </div>
+          <div class="service__items">
+            <h3 class="service__offer service__offer--beard" data-tab="tab-2">
+              Стрижка бороды
+            </h3>
+            <div class="service__text text hidden" data-tab-content id="tab-2">
+              <p>
+                Ваш образ может существенно изменить ухоженная борода: придаст лицу мужественности, сделает подбородок
+                более выраженным, а так же четко сформирует черты лица. Мастера нашего барбершопа советуют отращивать ее
+                в течениемесяца-двух, а затем прийти на стрижку и моделирование бороды. В зависимости от
+                пожеланий клиента и черт лица, мы придадим ей индивидуальную форму и поможем подобрать профессиональную
+                косметику по уходу, которая поможет подольше сохранить новую форму.
+              </p>
+              <p>
+                Услуга предусматривает моделирование, оформление, а так же уход за волосами и кожей лица. С помощью
+                машинки и ножниц, мастера придадут щетине четкую форму, для создания которой они используют опасную
+                бритву, ведь с ее помощью силуэт щетины или бороды держится дольше. Процедура занимает около 20-30
+                минут.
+              </p>
+            </div>
+          </div>
+          <div class="service__items">
+            <h3 class="service__offer service__offer--bold" data-tab="tab-3">
+              Бритье головы
+            </h3>
+            <div class="service__text text hidden" data-tab-content id="tab-3">
+              <p>
+                Обратившись к квалифицированным мастерам мы поможем Вам осуществить профессиональное
+                бритье головы максимально деликатно и качественно. Бритье в барбершопе производится по разным
+                технологиям: на выбор клиента осуществим бритье машинкой (шейвером), либо же опасной бритвой -
+                королевское бритье.
+              </p>
+              <p>
+                Для всех типов бритья мы используем профессиональные высококачественные косметические
+                средства, которые обеспечат комфортное и качественное бритье. Специальный состав позволит ускорить
+                заживление покрова головы и ликвидирует раздражение. Процедура занимает около 30 минут.
+              </p>
+            </div>
+          </div>
+          <div class="service__items">
+            <h3 class="service__offer service__offer--danger" data-tab="tab-4">
+              Бритье опасной бритвой
+            </h3>
+            <div class="service__text text hidden" data-tab-content id="tab-4">
+              <p>
+                Бритье опасной бритвой - это услуга для настоящих ценителей мужских ритуалов, которая не может сравнится
+                с домашним бритьем. У бритья опасной бритвой немало преимуществ - полное удаление щетины, даже в
+                труднодоступных местах, оперативность процесса, отсутствие раздражения после процедуры, легкое удаление
+                даже самой жесткой щетины.
+              </p>
+              <p>
+                Процесс бритья начинается с увлажнения и распаривания кожи горячим
+                полотенцем,
+                далее мастер наносит гель густым слоем для более легкого скольжения бритвы. Из-за остроты лезвия,
+                мастеру
+                нет необходимости проходить бритвой по одному и тому же месту, за счет этого риск раздражения
+                минимальный. После процедуры мастер снимает остатки пены полотенцем и использует средства после бритья,
+                в зависимости от кожи. Процедура занимает около 30 минут.
+              </p>
+            </div>
+          </div>
+          <div class="service__items">
+            <h3 class="service__offer service__offer--boy" data-tab="tab-5">
+              Стрижка для мальчика
+            </h3>
+            <div class="service__text text hidden" data-tab-content id="tab-5">
+              <p>
+                Далеко не секрет, что каждый маленький мальчик в душе мечтает поскорее стать взрослым. Дети на
+                подсознательном уровне копируют поведение и образ жизни своих родителей, которые подают им наглядный
+                собственный пример. Так почему бы не направить такое подражание в нужное русло и не привить своим
+                отпрыскам правильные привычки, касающиеся здорового образа жизни и качественного ухода за собой, с
+                самого раннего возраста?
+              </p>
+              <p>
+                Для нас детская стрижка для мальчика - это не просто укоротить волосы машинкой. Для нас прическа - это
+                определенная философия, конечным результатом которой является получение качественного продукта,
+                независимо от того, предназначался он для детей или для взрослых. Каждый наш мастер с легкостью воплотит
+                в жизнь самые современные и ультрамодные барберские мальчиковые прически и с радостью развенчает
+                сложившиеся стереотипы о скучных парикмахерах для ребенка.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="container">
+        <h2 class="gallery__title title animate__animated animate__fadeInLeftBig animate__slower wow">галерея работ</h2>
+        <div class="gallery__filter animate__zoomIn animate__animated animate__slower wow">
+          <button class="gallery__btn" type="button" data-filter="all">
+            все
+          </button>
+          <button class="gallery__btn" type="button" data-filter=".category-haircut">
+            стрижка
+          </button>
+          <button class="gallery__btn" type="button" data-filter=".category-beard">
+            бороди
+          </button>
+          <button class="gallery__btn" type="button" data-filter=".category-pro">
+            инструментарий
+          </button>
+        </div>
+        <div class="gallery__photo">
+          <div class="gallery__item mix category-beard">
+            <img class="gallery__img" src="images/gallery/barber-1.jpg" alt="бритье лица">
+            <a class="gallery__shadow" href="#"></a>
+          </div>
+          <div class="gallery__item mix category-haircut">
+            <img class="gallery__img" src="images/gallery/barber-2.jpg" alt="стрижка ножницами">
+            <a class="gallery__shadow" href="#"></a>
+          </div>
+          <div class="gallery__item mix category-pro">
+            <img class="gallery__img" src="images/gallery/barber-3.jpg" alt="мужчина-серфер">
+            <a class="gallery__shadow" href="#"></a>
+          </div>
+          <div class="gallery__item mix category-haircut">
+            <img class="gallery__img" src="images/gallery/barber-4.jpg" alt="стрижка машинкой">
+            <a class="gallery__shadow" href="#"></a>
+          </div>
+          <div class="gallery__item mix category-beard">
+            <img class="gallery__img" src="images/gallery/barber-5.jpg" alt="машиная стрижка бороды">
+            <a class="gallery__shadow" href="#"></a>
+          </div>
+          <div class="gallery__item mix category-pro">
+            <img class="gallery__img" src="images/gallery/barber-6.jpg" alt="огненая стрижка">
+            <a class="gallery__shadow" href="#"></a>
+          </div>
+          <div class="gallery__item mix category-beard">
+            <img class="gallery__img" src="images/gallery/barber-7.jpg" alt="стрижка бороды">
+            <a class="gallery__shadow" href="#"></a>
+          </div>
+          <div class="gallery__item mix category-pro">
+            <img class="gallery__img" src="images/gallery/barber-8.jpg" alt="набор инструментов барбера">
+            <a class="gallery__shadow" href="#"></a>
+          </div>
+        </div>
+        <button class="gallery__more-photo button animate__zoomIn animate__animated animate__slower wow" type="button">
+          Показать еще
+        </button>
+      </div>
+      <div class="container">
+        <a class="barber-video" data-fancybox href="https://youtu.be/vxiJNHdKNug"
+          style="background-image: url('images/barbershop-bg.jpg')">
+          <svg width="75" height="88" viewBox="0 0 75 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M75 44L0 87.3013L0 0.69873L75 44Z" fill="#daa25c" />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <section class="blog" id="blog">
+      <div class="container">
+        <h2 class="blog__title title animate__animated animate__fadeInLeftBig animate__slower wow">Виды работ</h2>
+      </div>
+      <div class="blog__slider">
+        <div class="blog__items" style="background-image: url('images/blog/fade.jpg')">
+          <div class="container">
+            <h3 class="blog__caption">Стрижка (включая фейд)</h3>
+          </div>
+        </div>
+        <div class="blog__items" style="background-image: url('images/blog/clipper.jpg')">
+          <div class="container">
+            <h3 class="blog__caption">Стрижка машинкой</h3>
+          </div>
+        </div>
+        <div class="blog__items" style="background-image: url('images/blog/beard.jpg')">
+          <div class="container">
+            <h3 class="blog__caption">Стрижка бороды</h3>
+          </div>
+        </div>
+        <div class="blog__items" style="background-image: url('images/blog/children.jpg')">
+          <div class="container">
+            <h3 class="blog__caption">Детская стрижка</h3>
+          </div>
+        </div>
+        <div class="blog__items" style="background-image: url('images/blog/king.jpg')">
+          <div class="container">
+            <h3 class="blog__caption">Королевское бритье</h3>
+          </div>
+        </div>
+        <div class="blog__items" style="background-image: url('images/blog/grey-hair.jpeg')">
+          <div class="container">
+            <h3 class="blog__caption">Камуфлирование седины</h3>
+          </div>
+        </div>
+        <div class="blog__items" style="background-image: url('images/blog/father-son.png')">
+          <div class="container">
+            <h3 class="blog__caption">Комплекс (стрижка отца и сына)</h3>
+          </div>
+        </div>
+        <div class="blog__items" style="background-image: url('images/blog/all-inclusive.jpg')">
+          <div class="container">
+            <h3 class="blog__caption">Комплекс (стрижка и борода)</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team" id="team">
+      <div class="container">
+        <h2 class="team__title title animate__animated animate__fadeInLeftBig animate__slower wow">лучшие мастера</h2>
+        <div class="team__grup">
+          <div class="team__item">
+            <img class="team__photo" src="images/team/master-1.jpg" alt="">
+            <span class="team__name">Аристарх</span>
+            <span class="team__skill">Детская стрижка</span>
+          </div>
+          <div class="team__item">
+            <img class="team__photo" src="images/team/master-2.jpg" alt="">
+            <span class="team__name">Георгий</span>
+            <span class="team__skill">Камуфлирование седины</span>
+          </div>
+          <div class="team__item">
+            <img class="team__photo" src="images/team/master-3.jpg" alt="">
+            <span class="team__name">Дмитрий</span>
+            <span class="team__skill">Стижка бороды и усов</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="servise-packet" id="price">
+      <div class="container">
+        <h2 class="servise-packet__title title animate__animated animate__fadeInLeftBig animate__slower wow">стоимость
+        </h2>
+        <div class="servise-packet__all">
+          <div class="servise-packet__inner">
+            <h3 class="servise-packet__choice" data-name="accordeon-title">
+              Мужская стрижка
+            </h3>
+            <div class="servise-packet__list hidden">
+              <p>
+                Выполняется в комбинированных техниках машинками и ножницами, с персонально подобранными косметическими
+                средствами под тип волоса и стиль укладки.
+              </p>
+              <div class="servise-packet__price">
+                300
+                <span>₴</span>
+              </div>
+            </div>
+          </div>
+          <div class="servise-packet__inner">
+            <h3 class="servise-packet__choice accordeon-active" data-name="accordeon-title">
+              Моделирование бороды
+            </h3>
+            <div class="servise-packet__list">
+              <p>
+                Выполняется машинкой, ножницами, прямой бритвой со сменными лезвиями, используется горячий компресс и
+                персонально подобранные косметические средства.
+              </p>
+              <div class="servise-packet__price">
+                200
+                <span>₴</span>
+              </div>
+            </div>
+          </div>
+          <div class="servise-packet__inner">
+            <h3 class="servise-packet__choice" data-name="accordeon-title">
+              Стрижка машинкой
+            </h3>
+            <div class="servise-packet__list hidden">
+              <p>
+                Выполняется машинкой с использованием двух насадок и окантовочной бритвы.
+              </p>
+              <div class="servise-packet__price">
+                150
+                <span>₴</span>
+              </div>
+            </div>
+          </div>
+          <div class="servise-packet__inner">
+            <h3 class="servise-packet__choice" data-name="accordeon-title">
+              Бритье лица
+            </h3>
+            <div class="servise-packet__list hidden">
+              <p>
+                Выполняется прямой бритвой со сменными лезвиями, используется горячий компресс и персонально подобранные
+                косметические средства.
+              </p>
+              <div class="servise-packet__price">
+                200
+                <span>₴</span>
+              </div>
+            </div>
+          </div>
+          <div class="servise-packet__inner">
+            <h3 class="servise-packet__choice" data-name="accordeon-title">
+              Бритье головы
+            </h3>
+            <div class="servise-packet__list hidden">
+              <p>
+                Выполняется прямой бритвой со сменными лезвиями, используется горячий компресс и персонально подобранные
+                косметические средства.
+              </p>
+              <div class="servise-packet__price">
+                250
+                <span>₴</span>
+              </div>
+            </div>
+          </div>
+          <div class="servise-packet__inner">
+            <h3 class="servise-packet__choice" data-name="accordeon-title">
+              Укладка
+            </h3>
+            <div class="servise-packet__list hidden">
+              <p>
+                Выполняется феном и расческой, с персонально подобранными косметическими средствами под тип волоса и
+                стиль
+                образа.
+              </p>
+              <div class="servise-packet__price">
+                150
+                <span>₴</span>
+              </div>
+            </div>
+          </div>
+          <div class="servise-packet__inner">
+            <h3 class="servise-packet__choice" data-name="accordeon-title">
+              Камуфлирование головы
+            </h3>
+            <div class="servise-packet__list hidden">
+              <p>
+                Выполняется окрашивание волос на голове полуперманентным красителем, также тонирует седину.
+              </p>
+              <div class="servise-packet__price">
+                ?
+                <span>₴</span>
+              </div>
+            </div>
+          </div>
+          <div class="servise-packet__inner">
+            <h3 class="servise-packet__choice" data-name="accordeon-title">
+              Камуфлирование бороды
+            </h3>
+            <div class="servise-packet__list hidden">
+              <p>
+                Выполняется окрашивание волос на лице полуперманентным красителем, также тонирует седину.
+              </p>
+              <div class="servise-packet__price">
+                ?
+                <span>₴</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="map">
+      <div class="container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1066.4195473870934!2d30.229212938998437!3d50.52696376459941!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7ed729a096747e62!2sBRITVA%20Barbershop!5e0!3m2!1sru!2sua!4v1608059612154!5m2!1sru!2sua"
+          width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+      </div>
+    </div>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="contact__title title animate__animated animate__fadeInLeftBig animate__slower wow">оставить заявку
+        </h2>
+        <div class="contact__inner">
+          <form class="form animate__animated animate__fadeInLeftBig animate__slower wow">
+            <input class="form__item" type="text" name="username" placeholder="Имя">
+            <input class="form__item form__item--phone" type="tel" name="phone" placeholder="Телефон">
+            <textarea class="form__item form__item--message" name="message"
+              placeholder="Оставьте сообщение, и мы свяжемся с Вами в ближайшее время"></textarea>
+            <button class="form__btn button" type="submit">отправить</button>
+          </form>
+          <address class="contact__text animate__animated animate__fadeInRightBig animate__slower wow">
+            <div class="contact__question">
+              <p>Есть вопрос?</p>
+              <p>Вы можете связаться с нами:</p>
+            </div>
+            <div class="contact__box">
+              <span class="contact__graf">
+                ПН - ВС / 10:00 - 21:00
+              </span>
+              <a class="contact__tel" href="tel:+380673339871">
+                +38 (067) 333 987 1
+              </a>
+            </div>
+            <div class="contact__addtess">
+              Ул. Тургеневская 50В,
+              город Ирпень
+            </div>
+          </address>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__top">
+          <a class="footer__logo logo" href="#logo">
+            <img class="logo__img" src="images/logo.svg" alt="Логотип">
+          </a>
+          <ul class="social">
+            <li class="social__item">
+              <a class="social__link icon" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px"
+                  height="40px" viewBox="0 0 20 20" version="1.1">
+                  <g id="surface1">
+                    <path fill="#ffffff"
+                      d="M 14.191406 0 L 5.808594 0 C 2.605469 0 0 2.605469 0 5.808594 L 0 14.191406 C 0 17.394531 2.605469 20 5.808594 20 L 14.191406 20 C 17.394531 20 20 17.394531 20 14.191406 L 20 5.808594 C 20 2.605469 17.394531 0 14.191406 0 Z M 18.4375 14.191406 C 18.4375 16.53125 16.53125 18.4375 14.191406 18.4375 L 5.808594 18.4375 C 3.46875 18.4375 1.5625 16.53125 1.5625 14.191406 L 1.5625 5.808594 C 1.5625 3.46875 3.46875 1.5625 5.808594 1.5625 L 14.191406 1.5625 C 16.53125 1.5625 18.4375 3.46875 18.4375 5.808594 Z M 18.4375 14.191406 " />
+                    <path fill="#ffffff"
+                      d="M 10 4.609375 C 7.027344 4.609375 4.609375 7.027344 4.609375 10 C 4.609375 12.972656 7.027344 15.390625 10 15.390625 C 12.972656 15.390625 15.390625 12.972656 15.390625 10 C 15.390625 7.027344 12.972656 4.609375 10 4.609375 Z M 10 13.828125 C 7.890625 13.828125 6.171875 12.109375 6.171875 10 C 6.171875 7.890625 7.890625 6.171875 10 6.171875 C 12.109375 6.171875 13.828125 7.890625 13.828125 10 C 13.828125 12.109375 12.109375 13.828125 10 13.828125 Z M 10 13.828125 " />
+                    <path fill="#ffffff"
+                      d="M 16.25 4.53125 C 16.25 4.960938 15.898438 5.3125 15.46875 5.3125 C 15.039062 5.3125 14.6875 4.960938 14.6875 4.53125 C 14.6875 4.101562 15.039062 3.75 15.46875 3.75 C 15.898438 3.75 16.25 4.101562 16.25 4.53125 Z M 16.25 4.53125 " />
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link icon" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px"
+                  height="60px" viewBox="0 0 20 20">
+                  <g id="surface1">
+                    <path fill="#ffffff"
+                      d="M 15.234375 8.070312 C 15.234375 7.230469 14.554688 6.550781 13.714844 6.550781 L 6.597656 6.550781 C 5.761719 6.550781 5.082031 7.230469 5.082031 8.070312 L 5.082031 12.140625 C 5.082031 12.980469 5.761719 13.65625 6.597656 13.65625 L 13.714844 13.65625 C 14.554688 13.65625 15.234375 12.976562 15.234375 12.140625 Z M 9.140625 11.820312 L 9.140625 8 L 12.042969 9.910156 Z M 9.140625 11.820312 " />
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link icon" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px"
+                  height="40px" viewBox="0 0 20 20" version="1.1">
+                  <g id="surface1">
+                    <path fill="#ffffff"
+                      d="M 11.550781 20 L 11.550781 10.878906 L 14.609375 10.878906 L 15.070312 7.320312 L 11.550781 7.320312 L 11.550781 5.050781 C 11.550781 4.023438 11.832031 3.320312 13.3125 3.320312 L 15.191406 3.320312 L 15.191406 0.140625 C 14.867188 0.0976562 13.75 0 12.449219 0 C 9.734375 0 7.878906 1.65625 7.878906 4.699219 L 7.878906 7.320312 L 4.808594 7.320312 L 4.808594 10.878906 L 7.878906 10.878906 L 7.878906 20 Z M 11.550781 20 " />
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__copy">
+          <span class="footer__copy-text">
+            © 2021 by copyright
+          </span>
+          <a class="footer__link" href="">
+            Volodymyr Mykhniuk
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
